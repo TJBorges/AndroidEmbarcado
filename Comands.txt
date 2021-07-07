@@ -1,19 +1,20 @@
   01	cd aosp  
   02	. build/envsetup.sh 
-  949  lunch 23
-  950  cd packages/apps/
-  951  ls
-  952  cd AppNotification/
-  953  ls
-  954  mm
-  955  cd..
-  956  cd
-  957  cd aosp
-  958  cd out/
-  959  ls
-  960  cd target/product/shamu/
-  961  clear
-  962  ls
-  963  adb devices
-  964  adb reboot-bootloader
-  965  fastboot flash system system.img
+  03  lunch 23
+  04  cd packages/apps/
+  05  ls
+  06  cd AppNotification/
+  07  ls
+  08  mm
+  09  cd..
+  10  cd
+  11  cd aosp
+  12   make snod
+  13  cd out/
+  14  ls
+  15  cd target/product/shamu/
+  16  clear
+  17  ls
+  18  adb devices
+  19  adb reboot-bootloader
+  20  fastboot flash system system.img
